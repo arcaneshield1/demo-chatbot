@@ -29,7 +29,7 @@ from pydantic import BaseModel, Field
 # --------------------------------------------------------------------------- #
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 
 # Customers authenticate with this when calling our endpoint.
